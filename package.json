@@ -1,0 +1,11 @@
+{
+  "name": "logo-agencies-landing-page",
+  "version": "1.0.0",
+  "description": "Logo creator website, designed in figma. Implementaion in HTML5 and Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
