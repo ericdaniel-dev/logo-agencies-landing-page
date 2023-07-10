@@ -1,11 +1,16 @@
 {
-  "name": "logo-agencies-landing-page",
+  "name": "first-tailwind",
   "version": "1.0.0",
-  "description": "Logo creator website, designed in figma. Implementaion in HTML5 and Tailwind.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "buildcss" : "npx tailwindcss build -i ./src/style-tailwind.css -o ./src/style.css --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2"
+  }
 }
